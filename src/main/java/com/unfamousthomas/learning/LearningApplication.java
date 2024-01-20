@@ -19,8 +19,4 @@ public class LearningApplication {
 		return "Head aega!";
 	}
 
-	@GetMapping(path = "api/person")
-	public Person person() {
-		return new Person(123121414125L, "Mihkel", "police");
-	}
 }
